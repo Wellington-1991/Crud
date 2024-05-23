@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wellington\\ProjetoCrud\\Crud\\Crud.csproj": {}
+    "C:\\Users\\Wellington\\ProjetoCrud\\crud\\Crud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wellington\\ProjetoCrud\\Crud\\Crud.csproj": {
+    "C:\\Users\\Wellington\\ProjetoCrud\\crud\\Crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wellington\\ProjetoCrud\\Crud\\Crud.csproj",
+        "projectUniqueName": "C:\\Users\\Wellington\\ProjetoCrud\\crud\\Crud.csproj",
         "projectName": "Crud",
-        "projectPath": "C:\\Users\\Wellington\\ProjetoCrud\\Crud\\Crud.csproj",
+        "projectPath": "C:\\Users\\Wellington\\ProjetoCrud\\crud\\Crud.csproj",
         "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wellington\\ProjetoCrud\\Crud\\obj\\",
+        "outputPath": "C:\\Users\\Wellington\\ProjetoCrud\\crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
