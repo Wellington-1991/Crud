@@ -9,6 +9,6 @@ public class ClienteContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=DESKTOP-15CIMC2\\localhost; Initial Catalog=Cliente; Integrated Security=true");
+        optionsBuilder.UseSqlServer("Server=DESKTOP-15CIMC2\\localhost; Initial Catalog=Cliente; Trusted_Connection=True;TrustServerCertificate=True");
     }
 }
